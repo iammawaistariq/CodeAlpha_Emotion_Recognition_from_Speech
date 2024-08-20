@@ -53,8 +53,8 @@ The project uses four datasets for emotion recognition:
 ## Code Structure
 1. **Loading Libraries:** Loading required libraries
 2.  **Data Loading:** Loads audio files and associated emotions from multiple datasets.
-3.  **Feature Extraction:** Extracts various audio features such as zero crossing rate, MFCC, chroma features, and Mel spectrogram.
-4.  **Data Augmentation:** Applies noise, stretching, shifting, and pitch shifting to augment the data.
+3.  **Data Augmentation:** Applies noise, stretching, shifting, and pitch shifting to augment the data.
+4.  **Feature Extraction:** Extracts various audio features such as zero crossing rate, MFCC, chroma features, and Mel spectrogram.
 5.  **Model Training:** Builds a CNN model for emotion classification and trains it with the preprocessed data.
 6.  **Evaluation:** Evaluates the model using accuracy metrics and generates a confusion matrix and classification report.
 
